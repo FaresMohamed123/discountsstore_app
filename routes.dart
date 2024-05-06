@@ -16,8 +16,7 @@ import 'view/screen/auth/forgetpassword/verfiycodesaginup.dart';
  List<GetPage<dynamic>>? routes = [
   GetPage(
   name: "/", page: () => const Language(), middlewares: [MyMiddleWare()]),
-  //GetPage(name: "/", page: () => const TestView()),
-  //  Auth
+
   GetPage(name: AppRoute.language, page: () => const Language()),
   GetPage(name: AppRoute.login, page: () => const Login()),
   GetPage(name: AppRoute.signUp, page: () => const SignUp()),

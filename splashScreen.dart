@@ -79,7 +79,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 Container(
                   margin: const EdgeInsets.only(bottom: 25),
                   child: const Text(
-                    'Version 1.0',
+                    'Version 1.1',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.white,
